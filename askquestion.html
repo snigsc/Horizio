@@ -26,7 +26,7 @@
 					<!-- <li><a href="login.html">Log in</a></li> -->
                     <!-- <li><a href="signup.html">Sign up!</a></li> -->
                     <li><a href="createpoll.html">Create poll</a></li>
-                    <li><a href="askquestion.html">Ask a question</a></li>
+                    <!-- <li><a href="askquestion.html">Ask a question</a></li> -->
                     <li><a href="startroundtable.html">Initiate a roundtable</a></li>
 				</ul>
 			</nav>
@@ -47,11 +47,13 @@
                             <!-- <label for="fname">First name:</label> -->
                             <h3>Title:</h3>
                             <h5>Remember to keep your titles crisp and clear!</h5>
-                            <input type="text" id="username" name="fname" maxlength = "20"><br>
+                            <textarea id="questiontitle" name="questiontitle" rows = "2" cols = "50"> </textarea><br>
             
                             <!-- <label for="lname">Last name:</label> -->
-                            Password<input type="text" id="password" name="lname" size = "20"><br><br>
-                            <input type="submit" value="Log in">
+                            <h3>Details:</h3>
+                            <h5>Let people know exactly what you'd like answered. Include as as many details as possible.</h5>
+                            <textarea id="Question details" name="questiondetails" rows = "10" cols = "50"></textarea><br><br>
+                            <input type="submit" value="Post question">
                         </form>
 					</div>
 				</div>
